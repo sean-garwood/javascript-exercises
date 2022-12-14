@@ -11,9 +11,9 @@ return value
 */
 
 const reverseString = function(string) {
-  let arrayOfString = string.split();
+  let arrayOfString = string.split('');
   let reversed = arrayOfString.reverse();//reverse the array
-  return reversed.toString();
+  return reversed.join('');
 };
 
 // Do not edit below this line
