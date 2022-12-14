@@ -1,7 +1,7 @@
 const removeFromArray = function(array = [], ...args) {
   for (let i of arguments) {
-    const index = array.indexOf(i);
-    if (index > -1) {
+    const index = array.indexOf(i); //search for element
+    if (index > -1) { //only perform operation if the array is non-empty
       array.splice(index, 1);
     }
   }
