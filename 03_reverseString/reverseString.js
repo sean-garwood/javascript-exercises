@@ -12,7 +12,7 @@ return value
 
 const reverseString = function(string) {
   let arrayOfString = string.split('');
-  let reversed = arrayOfString.reverse();//reverse the array
+  let reversed = arrayOfString.reverse();
   return reversed.join('');
 };
 
