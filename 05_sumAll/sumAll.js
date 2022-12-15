@@ -26,6 +26,9 @@ if highest arg odd:
 
 todo:
 
--add error handling
--add sort function that sorts two args from large to small (into an array?)
+it seems that this function only works when one of the args is equal to one.
+
+probably just need to do a for loop.
+
+
 */
