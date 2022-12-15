@@ -4,7 +4,7 @@ const leapYears = function(year) {
   } else if (year % 400 === 0) {
     return true;
     } 
-  else {return false};
+  else return false;
 };
 
 // Do not edit below this line
