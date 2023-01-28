@@ -10,13 +10,10 @@ const sum = (...args) => {
   return total;
 }; 
 
-const multiply = (a, ...args) => {
-  if (a === undefined) {
-    return 0;
-  }
-  let product = a;
-  for (let arg of args) {
-    product *= arg;
+const multiply = (arrayOfFactors) => {
+  let product = 1;
+  for (let factor of arrayOfFactors) {
+    product *= factor;
   }
   return product;
 };
