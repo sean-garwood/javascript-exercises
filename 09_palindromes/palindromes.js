@@ -77,7 +77,7 @@ const palindromes = (string) => {
     let lastIndex = lowerString[length-(i+1)];
     if (firstIndex != lastIndex) {
       return false;
-    } else continue;
+    };
   }
   return true;
 }
